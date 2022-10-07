@@ -58,7 +58,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective solutions for your business</h1>
-        <button type="button" class="hero-button"><span class="hero-button-text">Request Services</span> </button>
+        <button type="button" class="hero-button" data-modal-open><span class="hero-button-text">Request Services</span> </button>
         </div>
       </section>
       <section class="benefit section">
@@ -100,29 +100,40 @@
           <h2 class="what-title ">What are we doing?</h2>
         <ul class="list flex-what ">
           <li class="what-pic">
+           <div class="what-wrap">
             <img
               src="images/img1.jpg"
               alt="desktop with devices"
               width="370"
               height="294"
-              
             />
+            <p class="what-top-text">Desktop applications
+            </p>
+            </div>
           </li>
           <li class="what-pic">
+                <div class="what-wrap">
             <img
               src="images/img2.jpg"
               alt="man in front of screens of different devices"
               width="370"
               height="294"
             />
+              <p class="what-top-text">mobile applications
+            </p>
+            </div>
           </li>
           <li class="what-pic">
+               <div class="what-wrap">
             <img
               src="images/img3.jpg"
               alt="tablet with color pallette on the screen"
               width="370"
               height="294"
             />
+              <p class="what-top-text">design solutions
+            </p>
+            </div>
           </li>
         </ul> 
         </div>
@@ -423,5 +434,15 @@
 
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal >
+      <div class="modal">
+         <button type="button" class="modal-close-button" data-modal-close> 
+          <svg class="modal-close-icon">
+            <use href="./images/symbol-defs.svg#icon-close" width="11" height="11"></use>
+          </svg>
+         </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
