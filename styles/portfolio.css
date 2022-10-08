@@ -126,6 +126,9 @@ cursor: pointer;
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 33px;
+  transition-property:color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 .list-item:hover {
@@ -168,6 +171,9 @@ gap:30px;
   text-decoration: none;
     display: flex;
   align-items: center;
+    transition-property:color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 .nav-mail-icon {  
@@ -176,6 +182,9 @@ gap:30px;
   height: 12px;
   fill: currentColor;
   margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 .nav-smartphone-icon {  
@@ -195,6 +204,9 @@ gap:30px;
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition-property:color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 
 }
 
@@ -241,17 +253,19 @@ gap:30px;
     cursor: pointer;
     padding: 6px 22px;
     display: block;
+  transition-property:background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 .fltr-button:hover {
-    background: var(--hover-color);
+    background-color: var(--hover-color);
     color:#FFFFFF;
 
 }
 
 .fltr-button:focus{
 background: var(--focus-color);
-
   color:#FFFFFF;
 }
 
@@ -263,6 +277,8 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 }
+
+
 
 /*--------------------projects cards---------------*/
 
@@ -286,6 +302,9 @@ letter-spacing: 0.03em;
 .card-item {
     text-decoration: none;
     display: block;
+    transition-property:box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 
@@ -446,6 +465,9 @@ margin-right: 10px;
   align-items: center;
   justify-content: center;
   fill: #FFFFFF;  
+    transition-property:background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 .footer-join-soc-item :hover,
